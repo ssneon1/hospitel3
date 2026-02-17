@@ -85,7 +85,7 @@ export function App() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-slate-900">SNA Hospital</h1>
-                <p className="text-xs" style={{ color: '#ec6526' }}>Trusted Care, Advanced Treatment</p>
+                <p className="text-xs" style={{ color: '#ec6526' }}>Shree Narayan Ashram Multi-Specelist Hospital</p>
               </div>
             </div>
 
