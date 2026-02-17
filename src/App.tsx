@@ -71,7 +71,7 @@ export function App() {
     <div className="min-h-screen bg-white font-sans">
       {/* Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'}`}>
-        {/* Top accent bar with SMPPS orange color */}
+        {/* Top accent bar with SNA orange color */}
         <div className="h-1 w-full" style={{ backgroundColor: '#ec6526' }}></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
@@ -84,7 +84,7 @@ export function App() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-slate-900">SMPPS Hospital</h1>
+                <h1 className="text-xl font-bold text-slate-900">SNA Hospital</h1>
                 <p className="text-xs" style={{ color: '#ec6526' }}>Trusted Care, Advanced Treatment</p>
               </div>
             </div>
@@ -133,7 +133,7 @@ export function App() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="inline-flex items-center px-4 py-2 rounded-full" style={{ backgroundColor: '#ec652620' }}>
-                  <span className="text-sm font-medium" style={{ color: '#ec6526' }}>🏥 Welcome to SMPPS Hospital</span>
+                  <span className="text-sm font-medium" style={{ color: '#ec6526' }}>🏥 Welcome to SNA Hospital</span>
                 </div>
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-900 leading-tight">
                   Quality Healthcare with <span style={{ color: '#ec6526' }}>Compassion</span>
